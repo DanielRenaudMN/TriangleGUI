@@ -48,7 +48,6 @@ public class TriangleGUI extends Application implements EventHandler<ActionEvent
 	 */
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		// TODO Auto-generated method stub
 		GridPane gridpane = new GridPane();
 		BorderPane borderpane = new BorderPane();
 		gridpane.add(columnHeaderForX, 1, 1);
@@ -83,7 +82,6 @@ public class TriangleGUI extends Application implements EventHandler<ActionEvent
 	 */
 	@Override
 	public void handle(ActionEvent event) {
-		// TODO Auto-generated method stub
 		if (event.getSource() == createButton) {
 			Point p1 = new Point(Integer.parseInt(fieldForX1.getText()), Integer.parseInt(fieldForY1.getText()));
 			Point p2 = new Point(Integer.parseInt(fieldForX2.getText()), Integer.parseInt(fieldForY2.getText()));
